@@ -1,0 +1,6 @@
+
+.codegpt
+node_modules/
+git rm --cached .env
+git commit -m "Remove sensitive files from version control"
+git push
